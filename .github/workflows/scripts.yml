@@ -1,0 +1,77 @@
+name: Scripts for hajdutetalb
+on:
+  push:
+    branches:
+      - master
+      
+env:
+  audio_url: "AA"
+  movie_url: "BB"
+  movie_name: "MOVIE.mp4"
+  audio_name: "AUDIO.m4a"
+  result_name: "Unë shpirtkeqi - Dubluar në Shqip - FULL HD.mp4"
+  h1: 'Accept: application/json'
+  h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
+  h3: 'cache-control: no-cache'
+  h4: 'Authorization: Bearer sl.Au3U1zfWXhvEaVn1-rFS_4HBvO_8jPhIurgSPsa0Yy9s3CgV7rsQwQiQiITXy-mNffvOa5iNUNyTvzODgS71goh2int-ZF6X82r3sCxtnDTtSN6G5oXrM5B77qlrx9SrcZlWfdM' # dropbox
+  h5: 'Content-Type: application/octet-stream'
+  #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
+  h7: "Dropbox-API-Arg: {\"close\": false}"
+  h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
+  h8b: "\",\"offset\": "
+  h8c: "},\"close\": false}"
+  h9: "},\"commit\": {\"path\": \"/Unë shpirtkeqi - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  
+jobs:
+  start:
+    runs-on: macos-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip')"
+    
+    steps:
+      - name: Install stuff
+        run: brew install ffmpeg
+        
+      - name: Download audio
+        run: wget -O "$audio_name" "$audio_url"
+          
+      - name: Download movie
+        run: wget -O "$movie_name" "$movie_url" #$(curl https://vidoza.net/w7vi997d6oj2.html | grep "source src" | sed -e "s/        <source src=\"\(.*\)\" type='video\/mp4'>/\1/")
+
+      # made to work for the RARBG x264 AAC version of Ratatouille
+      #- name: RAT get part 1
+      #  run: ffmpeg -ss 0 -i "$movie_name" -c copy -to 27 -avoid_negative_ts make_zero part1.ts
+      #- name: RAT get part 2
+      #  run: ffmpeg -ss 1:19.6 -i "$movie_name" -c copy -to 2:00:00 -avoid_negative_ts make_zero part2.ts
+      #- name: RAT concat
+      #  run: printf "file 'part1.ts'\nfile 'part2.ts'" > list.txt && rm "$movie_name" && ffmpeg -f concat -safe 0 -i list.txt -c copy -map_metadata -1 -movflags +faststart "$movie_name" && rm list.txt part1.ts part2.ts
+        
+      - name: Swap audio
+        run: ffmpeg -i "$movie_name" -i "$audio_name" -vcodec copy -acodec copy -map_metadata -1 -movflags +faststart -map 0:v -map 1:a "$result_name"
+        
+      - name: Clean up
+        run: rm "$movie_name" && rm "$audio_name"
+      
+      - name: Split
+        run: split -b 140m "$result_name" segment
+        
+      - name: Start Upload
+        run: echo db_sess=$(curl -X POST https://content.dropboxapi.com/2/files/upload_session/start -H "$h4" -H "$h5" -H "$h7" | jq -r .session_id) >> $GITHUB_ENV
+        #run: echo ::set-env name=db_sess::$(curl -X POST https://content.dropboxapi.com/2/files/upload_session/start -H "$h4" -H "$h5" -H "$h7" | jq -r .session_id)
+        
+      - name: Append upload
+        run: offs="0"; for i in segment*; do curl -X POST https://content.dropboxapi.com/2/files/upload_session/append_v2 -H "$h4" -H "$h5" -H "$h8a$db_sess$h8b$offs$h8c" --data-binary @"$i"; sz=$(stat -f%z $i); ((offs+=sz)); rm $i; done;
+        
+      - name: Finish upload
+        run: offset=$(stat -f%z "$result_name"); curl -X POST https://content.dropboxapi.com/2/files/upload_session/finish -H "$h4" -H "$h5" -H "$h8a$db_sess$h8b$offset$h9"
+        
+      - name: Get Vidoza session
+        run: echo vidoza=$(curl -X GET https://api.vidoza.net/v1/upload/http/server -H "$h1" -H "$h2" -H "$h3") >> $GITHUB_ENV
+        #run: echo ::set-env name=vidoza::$(curl -X GET https://api.vidoza.net/v1/upload/http/server -H "$h1" -H "$h2" -H "$h3")
+  
+      - name: Set vars
+        run: echo url=$(echo $vidoza | jq -r '.data.upload_url') >> $GITHUB_ENV && echo xhr=$(echo $vidoza | jq -r '.data.upload_params.is_xhr') >> $GITHUB_ENV && echo sess=$(echo $vidoza | jq -r '.data.upload_params.sess_id') >> $GITHUB_ENV
+        #run: echo ::set-env name=url::$(echo $vidoza | jq -r '.data.upload_url') && echo ::set-env name=xhr::$(echo $vidoza | jq -r '.data.upload_params.is_xhr') && echo ::set-env name=sess::$(echo $vidoza | jq -r '.data.upload_params.sess_id')
+        
+      - name: Upload to Vidoza
+        run: wget -O curl http://albtv.ga/curl && chmod 777 curl && ./curl -X POST "$url" -H "$h3" -F is_xhr="$xhr" -F sess_id="$sess" -F file=@"$result_name"
+
