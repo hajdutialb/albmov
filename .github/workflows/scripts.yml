@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://s3.eu-central-1.amazonaws.com/blob-eu-central-1-nwsekq/sara/19/19bf/19bf5435-ba49-49ac-8eff-7aa45890455d.bin?response-content-disposition=attachment%3B%20filename%3D%22final.m4a%22&response-content-type=audio%2Fx-m4a&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI75SICYCOZ7DPWTA%2F20210413%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210413T111723Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=e9545f2e68a9c9744123875cc86f0e9d9a98564d6004f0d39a1b3eb842b6f062"
-  movie_url: "https://de17.seedr.cc/ff_get/890927762/Despicable.Me.2010.1080p.BluRay.H264.AAC-RARBG.mp4?st=K7bPKdGRAXejT86_wjKt4Q&e=1618398934"
+  audio_url: "https://s3.eu-central-1.amazonaws.com/blob-eu-central-1-nwsekq/sara/40/409f/409f63c9-09cf-41de-8e19-cebef8f8e029.bin?response-content-disposition=attachment%3B%20filename%3D%22final.m4a%22&response-content-type=audio%2Fx-m4a&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI75SICYCOZ7DPWTA%2F20210413%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210413T171202Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=b68acf721c9751f3e4837cb0c811caf06bd38037e889201fe18b0a58b102ed9c"
+  movie_url: "https://de16.seedr.cc/ff_get/891528795/Despicable.Me.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4?st=qqBohhE3p8wearbZsuQgMg&e=1618420356"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Unë shpirtkeqi - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Unë shpirtkeqi 2 - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Au15DdQsaOh6_jQsM7-mCJR2JuT57mbBLKPXHz529vmuo7RYe7EETEJ51ZCO1EB1bLGKFD8s-ohF2t20LvQuEBsCSBdD67R0Ot9_JodTBbagYsr0HJP0WzH0MEPfJIL1zTygSDQ' # dropbox
+  h4: 'Authorization: Bearer sl.Au4mItmDiG5FpvI0urYAIdgDVTxsXDdAibAXqGJH6geq0JSsCdzzsJgWterrTrCaYqNxVeel9_p6tjjRzWtPrCocYVKsQVzVJX90bTWu_Nxnu2Wy-iSjQWG5pZ-3uM0KJQfU0co' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Unë shpirtkeqi - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Unë shpirtkeqi 2 - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
