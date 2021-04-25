@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/vibF2lkTvvYeGsFclFtpoiOWc-e0dNEtfnvelk1XLM699M5bQga-cs05YpWsZfYf/final.m4a"
-  movie_url: "https://nl19.seedr.cc/ff_get/895119971/Phineas.and.Ferb.The.Movie.Candace.Against.The.Universe.2020.1080p.WEBRip.x264-RARBG.mp4?st=6DiIsARWZOd-6JRVivVP_g&e=1618924728"
+  audio_url: "https://cdn.filesend.jp/private/W_8H1qMUMxlFa9zZ5ONrQmPL_cIe3LVTs3lEFkM3iVZwFJWgsg6-k-t1KZB2-Hgy/Fe%CC%88mije%CC%88t%20spiune%CC%88%20-%20Dubluar%20ne%CC%88%20Shqip%20-%20FULL%20HD.m4a"
+  movie_url: "https://nl25.seedr.cc/ff_get/895625397/Spy.Kids.2001.1080p.BluRay.H264.AAC-RARBG.mp4?st=vK_SKKk8tdxho_LDGsXnWw&e=1619450112"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Phineas and Ferb The Movie Candace Against the Universe - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Fëmijët spiunë - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.AvPlrTvANbe_42rsU7U_bU9Na_m5KSWgtHRUQmjXp_s_Po6s8pp2_8Yr8RgUyexCcDSkRjdoMyrbCxW-vrzbimXLukdpAq6cTEJbduUXf7taob2nKQYGW1NXuVbSQVRZJU7F8xs' # dropbox
+  h4: 'Authorization: Bearer sl.AvoL8jgl2fVSiA8IVAg45IhMomdhnxdIN10LMb6LFUGjFsF_3jjjHnCk9IOBqAs65vQ1wPgB59IYaywHmDsEUZrmXpBq3RqURG0rOhf24CasOY32_T0sm7YMLu5V59uqic0-NtU' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Phineas and Ferb The Movie: Candace Against the Universe - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Fëmijët spiunë - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
