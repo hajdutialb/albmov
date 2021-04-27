@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/ChQOjaf87Nvjy4ACS9-EcdxqcvkO5d93Byv5QbeSWurxwsrcG7HFaghG8h4vo3fU/final.m4a"
-  movie_url: "https://4iekydqupiqr8zsbnuup1.ctmp.space/files/7/f4wsmm11mfxjkh/Bukuroshja%20e%20fjetur%20-%20Dubluar%20n%3F%20Shqip%20-%20FULL%20HD.mp4"
+  audio_url: "https://cdn.filesend.jp/private/XUjR6S9A1M0y-Wiy3nNG9-UIVUWtl70cJE4Wfaq-xTWSyqnIEV0UdTRb59s7zP1S/Uollas%20dhe%20Gromit%20-%20Mallkimi%20i%20njeriut-lepur%20-%20Dubluar%20ne%CC%88%20Shqip%20-%20FULL%20HD.m4a"
+  movie_url: "https://nl30.seedr.cc/ff_get/900332288/The.Curse.of.the.Were-Rabbit.2005.1080p.BluRay.H264.AAC-RARBG.mp4?st=DwLfgDZ7_Unm48tSdcvwpA&e=1619604897"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Bukuroshja e fjetur - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Uolleis dhe Gromit: Mallkimi i njeriut-lepur - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.AvrN-BLy-sA_E_1IExo6Pyo9UihWZYn3aiECmv6EM4jh-FtWIiq5ZRe2wWMljIH25-gSrinZYeSD2XXCC45gYgCrS1vZeIADM7EvbpfDJzgSpeJuUzS0ILWTc-uD3xqO8rt_264' # dropbox
+  h4: 'Authorization: Bearer sl.Avt8cddKib-mokH4FEqghqNaiYddcgO6EG0nQxnC9izxjfDdl0T6BDeet7i5XrIZ2f0NwctK3Cu-cP8s8A_wNEe2WN7Q-EXk9JCBCZeik_rW0LoBFKW4BOfdyaF_E6giuiheSNM' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Bukuroshja e fjetur - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Uolleis dhe Gromit: Mallkimi i njeriut-lepur - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
