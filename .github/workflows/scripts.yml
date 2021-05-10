@@ -5,11 +5,11 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/CzUX8sMk9aUMu8f_EQe-xpdao4jGdvz78-I887cZUY48Io7BLf7jyGv9JcMuEux0/final.m4a"
-  movie_url: "http://albrv.000webhostapp.com/adf.m3u8"
+  audio_url: "https://cdn.filesend.jp/private/RhIdx0XCwGV_gHhIQLG8DgVtArEdLzWuLwzCYjjvcC6SmHkFf8GM28QwzppjT7oy/final.m4a"
+  movie_url: "https://nl19.seedr.cc/ff_get/908732511/Lady.and.the.Tramp.1955.1080p.BluRay.H264.AAC-RARBG.mp4?st=V5daNNb9aLdfyKeBXwLL6Q&e=1620746420"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Tili Ulenshpigel - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Lili dhe endacaku - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
@@ -20,7 +20,7 @@ env:
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Tili Ulenshpigel - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Lili dhe endacaku - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
@@ -46,7 +46,7 @@ jobs:
       #  run: printf "file 'part1.ts'\nfile 'part2.ts'" > list.txt && rm "$movie_name" && ffmpeg -f concat -safe 0 -i list.txt -c copy -map_metadata -1 -movflags +faststart "$movie_name" && rm list.txt part1.ts part2.ts
         
       - name: Swap audio
-        run: ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -allowed_extensions ALL -i "$movie_url" -i "$audio_name" -vcodec copy -acodec copy -map_metadata -1 -movflags +faststart -map 0:v -map 1:a -shortest "$result_name"
+        run: ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -allowed_extensions ALL -i "$movie_name" -i "$audio_name" -vcodec copy -acodec copy -map_metadata -1 -movflags +faststart -map 0:v -map 1:a -shortest "$result_name"
         
       - name: Clean up
         run: rm "$movie_name" && rm "$audio_name"
