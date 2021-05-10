@@ -13,7 +13,7 @@ env:
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.AwGpMMYjv125c-fOHQnNtL1ty_TgRaZUIea0cX31MAx4CrCSX2HT3_Pai_ggTEDZF5tUpHj63nPmO3Ke7dG3hfX9IBbrk_LkoSKST_3pL6J3GSibxzGR4xEwtQ0uJ1h0X_7RZw4' # dropbox
+  h4: 'Authorization: Bearer sl.AwjQmQCazqLTnofl917fT_7kqPTG2jLTzIggs6-VUI6F7INAEpw0dEOn8C-NnDwF5ZzMPhzzDK5m-gyMReNnV6UTFCTqvi-XXod0G1x0wAYFNZuZyVOrwLEAcL1_okAeSPpN6pM' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
