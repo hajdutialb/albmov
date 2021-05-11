@@ -5,8 +5,8 @@ on:
       - master
       
 env:
-  audio_url: "https://4iekydqupiqr8zsbnuup4.ctmp.space/files/7/ulwbk0k7y5efc8/Hirushja%20-%20Dubluar%20n%C3%AB%20Shqip%20(Dublimi%20Albatrade)%20-%20FULL%20HD.mp4"
-  movie_url: "https://cdn.filesend.jp/private/L9ofLrR8Kh6i7xdx5qIOBP6WqI3LjKsQ82ydqRyGIuEkxaHXOqJtjedV1dbXBDt7/final.m4a"
+  audio_url: "https://cdn.filesend.jp/private/L9ofLrR8Kh6i7xdx5qIOBP6WqI3LjKsQ82ydqRyGIuEkxaHXOqJtjedV1dbXBDt7/final.m4a"
+  movie_url: "https://4iekydqupiqr8zsbnuup4.ctmp.space/files/7/ulwbk0k7y5efc8/Hirushja%20-%20Dubluar%20n%C3%AB%20Shqip%20(Dublimi%20Albatrade)%20-%20FULL%20HD.mp4"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
   result_name: "Hirushja - Dubluar në Shqip (Dublimi Jess) - FULL HD.mp4"
