@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/79LfFLjSJH6sg8NfstzYclnx3HO9pGrMwB6_DcRBJ8VR8Q-DZOc5zUD0CziItm_T/final.m4a"
-  movie_url: "https://nl23.seedr.cc/ff_get/910495204/Robin.Hood.1973.1080p.BluRay.H264.AAC-RARBG.mp4?st=50cfNI1A6nFmnaq3TAdT5g&e=1621076540"
+  audio_url: "https://cdn.filesend.jp/private/a2XNE0jHI-4Zt7tcepJE4-WbOUr6_ltcVEWy0ucAI-MalzMyJ3LxXdp8mc7J5Bzg/final.m4a"
+  movie_url: "https://nl38.seedr.cc/ff_get/913235122/Cinderella.II.Dreams.Come.True.2002.1080p.BluRay.H264.AAC-RARBG.mp4?st=M3TTKGA3cF2tdBzvh1JEhQ&e=1621093176"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Robin Hud - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Hirushja II - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Awzm_0L9xjnUYFlCWTjWSm6ZwnjgAujCaF2LTenbBy7h25xTuqLO1IWPiOrRilCOBrj7PWba7ft7EXKO0FFJvIqdB2u17Xl2m6RCEBdfdVdrI0Vt44jMvUSNMx6G-NC0Pk9qYJs' # dropbox
+  h4: 'Authorization: Bearer sl.AwyL-E7vkFwcIedrrE3_yb24t3D1LWqLpCSAhR8qzUBQ8wrFOHRRjWREAKBHsXosBXjsf8U3qwc9X52M81qY3-Wj_vrP21mFAlVuC3R9hYFu_q25yFbKlAniiq0CEavxBin-hBE' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Robin Hud - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Hirushja II - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
