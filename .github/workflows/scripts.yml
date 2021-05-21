@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://s3.eu-central-1.amazonaws.com/blob-eu-central-1-nwsekq/sara/a1/a1f9/a1f9cc1c-9c71-4f23-a00d-e231eda44481.bin?response-content-disposition=attachment%3B%20filename%3D%22final.m4a%22&response-content-type=audio%2Fx-m4a&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI75SICYCOZ7DPWTA%2F20210515%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210515T113330Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=9aedca8c0fde070857104cd1db84c6f6935b91494379f507f534ebd4c6d04f3b"
-  movie_url: "https://de16.seedr.cc/ff_get/913572826/Zootopia.2016.1080p.BluRay.H264.AAC-RARBG.mp4?st=zFoi_3DPqAXXPw2IoPL-iA&e=1621164833"
+  audio_url: "https://cdn.filesend.jp/private/LopzF1hGFzcndIWpTPzA8_jVkh1UclN-WrQCukXDSD9XtIf-z7-rewijB7dIjCTb/final.m4a"
+  movie_url: "https://de16.seedr.cc/ff_get/917656948/Ella.Enchanted.2004.1080p.BluRay.x264-[YTS.LT].mp4?st=bkYk-AXE4MLDWdVPwskNIw&e=1621689782"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Zootopia Qyteti i kafshëve - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Ela e magjepsur - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Aw2IeNvBuXEh27-jA-tpVF5LDW5NjXzyKD8Pvb1INNrXZ7MBYkYhfF68m8k3DegkyET3T-Ct7-e_-Nwz86W0xoiotTw547zOmDZl_Hiw6ALMYIoImUxntkEfATbof3vnr2ItpfQ' # dropbox
+  h4: 'Authorization: Bearer sl.AxPGr8yMPKqI44eW1Ex9Abg4PxMlBAfPPgqIwieutgTkSD9mSS7aPshJ5jiRRDJxGUruqPD19-69mCpV-Rf5xMwlVnaIf9TL8p43p7Oa6pV2PJwPAGLGI7mr2a3XDrhqZ1ZKy7U' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Zootopia: Qyteti i kafshëve - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Ela e magjepsur - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
