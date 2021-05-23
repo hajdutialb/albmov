@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/LopzF1hGFzcndIWpTPzA8_jVkh1UclN-WrQCukXDSD9XtIf-z7-rewijB7dIjCTb/final.m4a"
-  movie_url: "https://de16.seedr.cc/ff_get/917656948/Ella.Enchanted.2004.1080p.BluRay.x264-[YTS.LT].mp4?st=bkYk-AXE4MLDWdVPwskNIw&e=1621689782"
+  audio_url: "https://cdn.filesend.jp/private/zzvhL17iqSMQM65skTGjVX_0gTk3ib7aLmwJ5qvvxKMrANS88bw9SbXE_80czIFm/final.m4a"
+  movie_url: "https://nl31.seedr.cc/ff_get/918343750/Stuart.Little.2000.1080p.BluRay.H264.AAC-RARBG.mp4?st=opvW5y2HOk9glfXVv2lBZQ&e=1621856600"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Ela e magjepsur - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Stuart Little - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.AxPGr8yMPKqI44eW1Ex9Abg4PxMlBAfPPgqIwieutgTkSD9mSS7aPshJ5jiRRDJxGUruqPD19-69mCpV-Rf5xMwlVnaIf9TL8p43p7Oa6pV2PJwPAGLGI7mr2a3XDrhqZ1ZKy7U' # dropbox
+  h4: 'Authorization: Bearer sl.AxWAZKHUm-_ggOfU4Y78bYiDCZaQfdasEQyRcCAx6LW3dLQQSqAHhgDtQwS_iJtjA1Ub4-L7tnFaJ1_eD4Mrhi5Hh7SERlVogeQQlxxizlY4YpuX16ljSeG6gQZTNZLvimLSHrQ' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Ela e magjepsur - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Stuart Little - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
