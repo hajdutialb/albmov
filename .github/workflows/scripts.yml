@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://s3.eu-central-1.amazonaws.com/blob-eu-central-1-nwsekq/sara/58/58ba/58bab8bb-bf73-499d-919f-381cb98833e8.bin?response-content-disposition=attachment%3B%20filename%3D%22Bob%2520Sfungjeri%2520-%2520Misioni%2520i%2520shpe%25CC%2588timit%2520-%2520Dubluar%2520ne%25CC%2588%2520Shqip%2520-%2520FULL%2520HD.m4a%22&response-content-type=audio%2Fx-m4a&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI75SICYCOZ7DPWTA%2F20210617%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210617T163032Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=97cf067d54733e58e16bc480b8869f1bdbd7dfec5ad5a683dd10b958d583d85f"
-  movie_url: "https://nw2.seedr.cc/ff_get/938255155/The.SpongeBob.Movie.Sponge.on.the.Run.2020.1080p.WEBRip.x264-RARBG.mp4?st=ofFljrI-Vlt-bH3FO56WxQ&e=1624033845"
+  audio_url: "https://cdn.filesend.jp/private/Mls-ff0qvFdEfi8DzBpXM5h-Gv9XTcJ1C-lIjw4zKZHfOO3mo9XVSq3qHKPcaQ8E/final.m4a"
+  movie_url: "https://nw5.seedr.cc/ff_get/938286953/Ice.Age.2002.1080p.BluRay.x264-[YTS.AG].mp4?st=cpfc57N8fxYo3F1K1zrjcA&e=1624281306"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Bob Sfungjeri - Misioni i shpëtimit - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Epoka e akullnajave - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Ay7ptNYPYGsA2tZx-QZfXEiH8v88IwRSjOP0nVJOcVmCP74k24HoyyJHEHwzReC_O7Dx7ZS3a14HCtzkKsh6v4E4JdAYCPKuJG5AzOGnplv_HiflkBfgz0SGIiveYvnKPl6w7zM' # dropbox
+  h4: 'Authorization: Bearer sl.AzGX1Roj1Tq7C3D9MxnbwfvrGJ2Z-QerVD8k1HvMnDCfdXdKktRY7UtUH5yMWsdpdTgsYQM5ZupuHJ_uwT2sZgs-toFEogZUfElmye8GC3P2zysv7jNz8pw8tILMZy7M2Dfv1Ns' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Bob Sfungjeri - Misioni i shpëtimit - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Epoka e akullnajave - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
