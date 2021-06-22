@@ -5,11 +5,11 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/Mls-ff0qvFdEfi8DzBpXM5h-Gv9XTcJ1C-lIjw4zKZHfOO3mo9XVSq3qHKPcaQ8E/final.m4a"
-  movie_url: "https://nw5.seedr.cc/ff_get/938286953/Ice.Age.2002.1080p.BluRay.x264-[YTS.AG].mp4?st=cpfc57N8fxYo3F1K1zrjcA&e=1624281306"
+  audio_url: "https://cdn.filesend.jp/private/zsGEzc-evZ6R5SwO17uRnJcGETQIo7iZEAFn0cC8fMyQAd3v7dx4kz-yoqyJCloY/final.m4a"
+  movie_url: "https://fr17.seedr.cc/ff_get/940613407/Ice.Age.The.Meltdown.2006.1080p.BluRay.H264.AAC-RARBG.mp4?st=96VLtd6IHcdREn8AUHIg_Q&e=1624464897"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Epoka e akullnajave - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Epoka e akullnajave 2 - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
@@ -20,7 +20,7 @@ env:
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Epoka e akullnajave - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Epoka e akullnajave 2 - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
