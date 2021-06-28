@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/qiA3F1XfBU-BmcL0Yso5U3kFE9SAT55t3q_lKqMAjI24FTK7PTF3wRJyqUc82Fv1/final.m4a"
-  movie_url: "https://nl21.seedr.cc/ff_get/944554648/Lupin.III.Farewell.To.Nostradamus.1995.1080p.BluRay.x264.AAC-[YTS.MX].mp4?st=M7LYl70SHs7BjvAU-AzieA&e=1624796153"
+  audio_url: "https://cdn.filesend.jp/private/iZS5YASmOps1J1ZahqCneAsEeRw62k3J8ybKEPSzAs5sDaBdbgSk-saq1-rPYRHX/final.m4a"
+  movie_url: "https://dlfree.sonicbit.net/file/dl2/aWgvMUZ4WnlKVnlKcURnYkY2RUFIRVAxUHVnVVJVL2grd05ZOTFuTHljbEJxcFJ1eEt3dGpDQmJ1Ni83aFNPcitCZENhOExGbVd3eFRUK0dmOG1kT2xkclY4eEUwQW01M0dFbVUrK3hXdzZod01BWlhMamZSUlJJUndNVkNTV1ZmdHFJeURQczRuSWt5MVYraEo0dWNPb2hXWk1pVlZyZmVqVjhFNTRVbVIzNDR6SW44MERhWVlCZUhONGlueG9KdzdtMkJIQnlJUERZd1JIN0R5Zm9DYXNnL0hCd1N5bG5pT2F0c3dnZzR4UT0=/download"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Lupen - Profecitë e Nostradamusit - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Epoka e akullnajave 3 - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Azf-kjKeSTJuDuv36geVUYAkCBjX6cb3Xx-WDV1mKMMgAqAzB6qkcbHqYNiz9NajaHwpJ4CrPKGljtUah-oA1EyHPtI08rzeqyfLA62Hwqu69gHLj0p1frG0MwHx2KC110fSMuk' # dropbox
+  h4: 'Authorization: Bearer sl.Azkn4ugdh3aIsCeeeaKKEXNkWFSeLsa9tKVl3gADSdJ1bxJQRp1OjWxKW1idVuKpfgH2rmgdu0Cmn-8AFwQW8GZQxE2r2G3Bk3lrcQ4oV5BZ6dCu-wr8UnqCxFEKG3-UCBnF1Ew' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Lupen - Profecitë e Nostradamusit - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Epoka e akullnajave 3 - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
