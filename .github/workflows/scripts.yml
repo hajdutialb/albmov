@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/iZS5YASmOps1J1ZahqCneAsEeRw62k3J8ybKEPSzAs5sDaBdbgSk-saq1-rPYRHX/final.m4a"
-  movie_url: "https://dlfree.sonicbit.net/file/dl2/aWgvMUZ4WnlKVnlKcURnYkY2RUFIRVAxUHVnVVJVL2grd05ZOTFuTHljbEJxcFJ1eEt3dGpDQmJ1Ni83aFNPcitCZENhOExGbVd3eFRUK0dmOG1kT2xkclY4eEUwQW01M0dFbVUrK3hXdzZod01BWlhMamZSUlJJUndNVkNTV1ZmdHFJeURQczRuSWt5MVYraEo0dWNPb2hXWk1pVlZyZmVqVjhFNTRVbVIzNDR6SW44MERhWVlCZUhONGlueG9KdzdtMkJIQnlJUERZd1JIN0R5Zm9DYXNnL0hCd1N5bG5pT2F0c3dnZzR4UT0=/download"
+  audio_url: "https://cdn.filesend.jp/private/C9djYfPVuEL3dcVQFYZaM5JtLWXkWeGnEXeVjplYyki8-zH_IQBfLLjLpxtee3YY/final.m4a"
+  movie_url: "https://fr14.seedr.cc/ff_get/948804525/Home.On.The.Range.2004.1080p.BluRay.H264.AAC-RARBG.mp4?st=AD7jPvubiU9pI-y3b0pWXA&e=1625313046"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Epoka e akullnajave 3 - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Shtëpia në fermë - Dubluar në Shqip (Dublimi i dytë) - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Azkn4ugdh3aIsCeeeaKKEXNkWFSeLsa9tKVl3gADSdJ1bxJQRp1OjWxKW1idVuKpfgH2rmgdu0Cmn-8AFwQW8GZQxE2r2G3Bk3lrcQ4oV5BZ6dCu-wr8UnqCxFEKG3-UCBnF1Ew' # dropbox
+  h4: 'Authorization: Bearer sl.Az3asqadPCSHaghYGgWhDnwB746rO96lTUrGE2r9Nb4-0JMiB8WVf1yLEiNXXNwic-o_JA2rWaqXFsBK09UpGT-IoibTYU_5jmwBZF7Wf4PPmWEjJzHfBc5Z3BciBb4Y1uT717M' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Epoka e akullnajave 3 - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Shtëpia në fermë - Dubluar në Shqip (Dublimi i dytë) - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
