@@ -5,15 +5,15 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/q9_PxYFDpD2X1u5YvX9M6xTbcd5XB5CocVWy0NQYWYlp7y5YNiU0wwdehlkcfQr5/final.m4a"
-  movie_url: "https://nw3.seedr.cc/ff_get/949477589/Ice.Age.Continental.Drift.2012.1080p.BluRay.x264.YIFY.mp4?st=nZcBo0-KVtpuLTF22eLBpA&e=1625319741"
+  audio_url: "https://cdn.filesend.jp/private/fdNkwdkGGEFZg_kr3hf_vtxPrcX1dr5XvmY6k2-iReTBluAR11EKarg43ccRPHzD/final.m4a"
+  movie_url: "https://nw3.seedr.cc/ff_get/949477589/Ice.Age.Continental.Drift.2012.1080p.BluRay.x264.YIFY.mp4?st=6oT19om_NvKREEpgbrJ5UQ&e=1625322854"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
   result_name: "Epoka e akullnajave 4 - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Az0ERcFs2IgFy1U9nbpSsUU91iywkUa-RLFLxZvzsruMSamqY4Qa3uw-aH6bcwDYQr7q2Zn0G475MPDS-jwl6lwaXVSgAuqLwURbBQ3nvor40r9A1kSwT0k3U4K_asIj5aY7UPc' # dropbox
+  h4: 'Authorization: Bearer sl.Az3bBfM0EgbY7AqAkqcBZtNVktNmg3TUxESGFi4lvYWoMUndGeSInabYkMuqIT9PinGgCy0D3L8cnbJcfS3iO3lgqbGaZNiVKPqjzHJgjKD4h6w2NZgjEFeUCc-XHz_Q8GxLyLE' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
