@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/C9djYfPVuEL3dcVQFYZaM5JtLWXkWeGnEXeVjplYyki8-zH_IQBfLLjLpxtee3YY/final.m4a"
-  movie_url: "https://fr14.seedr.cc/ff_get/948804525/Home.On.The.Range.2004.1080p.BluRay.H264.AAC-RARBG.mp4?st=AD7jPvubiU9pI-y3b0pWXA&e=1625313046"
+  audio_url: "https://cdn.filesend.jp/private/q9_PxYFDpD2X1u5YvX9M6xTbcd5XB5CocVWy0NQYWYlp7y5YNiU0wwdehlkcfQr5/final.m4a"
+  movie_url: "https://nw3.seedr.cc/ff_get/949477589/Ice.Age.Continental.Drift.2012.1080p.BluRay.x264.YIFY.mp4?st=nZcBo0-KVtpuLTF22eLBpA&e=1625319741"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Shtëpia në fermë - Dubluar në Shqip (Dublimi i dytë) - FULL HD.mp4"
+  result_name: "Epoka e akullnajave 4 - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Az3asqadPCSHaghYGgWhDnwB746rO96lTUrGE2r9Nb4-0JMiB8WVf1yLEiNXXNwic-o_JA2rWaqXFsBK09UpGT-IoibTYU_5jmwBZF7Wf4PPmWEjJzHfBc5Z3BciBb4Y1uT717M' # dropbox
+  h4: 'Authorization: Bearer sl.Az0ERcFs2IgFy1U9nbpSsUU91iywkUa-RLFLxZvzsruMSamqY4Qa3uw-aH6bcwDYQr7q2Zn0G475MPDS-jwl6lwaXVSgAuqLwURbBQ3nvor40r9A1kSwT0k3U4K_asIj5aY7UPc' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Shtëpia në fermë - Dubluar në Shqip (Dublimi i dytë) - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Epoka e akullnajave 4 - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
