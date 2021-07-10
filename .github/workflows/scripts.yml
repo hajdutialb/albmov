@@ -6,7 +6,7 @@ on:
       
 env:
   audio_url: "https://cdn.filesend.jp/private/gm8CncFunztmvIgAeEjFmSFAoIyvxgrca-xQVaJ4hFAnyn9ISzaZRHROjAiwFw8R/final.m4a"
-  movie_url: "https://nw5.seedr.cc/ff_get/954500271/Monsters.Inc.2001.PROPER.1080p.BluRay.H264.AAC-RARBG.mp4?st=QKop1KkNDhFjAQrd8OPdjg&e=1626012761"
+  movie_url: "https://nw5.seedr.cc/ff_get/954500271/Monsters.Inc.2001.PROPER.1080p.BluRay.H264.AAC-RARBG.mp4?st=yqmOadb6LR9RaEkIDLFqag&e=1626016655"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
   result_name: "Përbindëshat - Dubluar në Shqip - FULL HD.mp4"
@@ -51,18 +51,18 @@ jobs:
       - name: Clean up
         run: rm "$movie_name" && rm "$audio_name"
       
-      - name: Split
-        run: split -b 140m "$result_name" segment
+      #- name: Split
+      #  run: split -b 140m "$result_name" segment
         
-      - name: Start Upload
-        run: echo db_sess=$(curl -X POST https://content.dropboxapi.com/2/files/upload_session/start -H "$h4" -H "$h5" -H "$h7" | jq -r .session_id) >> $GITHUB_ENV
+      #- name: Start Upload
+      #  run: echo db_sess=$(curl -X POST https://content.dropboxapi.com/2/files/upload_session/start -H "$h4" -H "$h5" -H "$h7" | jq -r .session_id) >> $GITHUB_ENV
         #run: echo ::set-env name=db_sess::$(curl -X POST https://content.dropboxapi.com/2/files/upload_session/start -H "$h4" -H "$h5" -H "$h7" | jq -r .session_id)
         
-      - name: Append upload
-        run: offs="0"; for i in segment*; do curl -X POST https://content.dropboxapi.com/2/files/upload_session/append_v2 -H "$h4" -H "$h5" -H "$h8a$db_sess$h8b$offs$h8c" --data-binary @"$i"; sz=$(stat -f%z $i); ((offs+=sz)); rm $i; done;
+      #- name: Append upload
+       # run: offs="0"; for i in segment*; do curl -X POST https://content.dropboxapi.com/2/files/upload_session/append_v2 -H "$h4" -H "$h5" -H "$h8a$db_sess$h8b$offs$h8c" --data-binary @"$i"; sz=$(stat -f%z $i); ((offs+=sz)); rm $i; done;
         
-      - name: Finish upload
-        run: offset=$(stat -f%z "$result_name"); curl -X POST https://content.dropboxapi.com/2/files/upload_session/finish -H "$h4" -H "$h5" -H "$h8a$db_sess$h8b$offset$h9"
+#      - name: Finish upload
+ #W       run: offset=$(stat -f%z "$result_name"); curl -X POST https://content.dropboxapi.com/2/files/upload_session/finish -H "$h4" -H "$h5" -H "$h8a$db_sess$h8b$offset$h9"
         
       - name: Get Vidoza session
         run: echo vidoza=$(curl -X GET https://api.vidoza.net/v1/upload/http/server -H "$h1" -H "$h2" -H "$h3") >> $GITHUB_ENV
