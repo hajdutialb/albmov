@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://cdn.filesend.jp/private/fdNkwdkGGEFZg_kr3hf_vtxPrcX1dr5XvmY6k2-iReTBluAR11EKarg43ccRPHzD/final.m4a"
-  movie_url: "https://nw3.seedr.cc/ff_get/949477589/Ice.Age.Continental.Drift.2012.1080p.BluRay.x264.YIFY.mp4?st=6oT19om_NvKREEpgbrJ5UQ&e=1625322854"
+  audio_url: "https://cdn.filesend.jp/private/gm8CncFunztmvIgAeEjFmSFAoIyvxgrca-xQVaJ4hFAnyn9ISzaZRHROjAiwFw8R/final.m4a"
+  movie_url: "https://nw5.seedr.cc/ff_get/954500271/Monsters.Inc.2001.PROPER.1080p.BluRay.H264.AAC-RARBG.mp4?st=QKop1KkNDhFjAQrd8OPdjg&e=1626012761"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Epoka e akullnajave 4 - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Përbindëshat - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.Az3bBfM0EgbY7AqAkqcBZtNVktNmg3TUxESGFi4lvYWoMUndGeSInabYkMuqIT9PinGgCy0D3L8cnbJcfS3iO3lgqbGaZNiVKPqjzHJgjKD4h6w2NZgjEFeUCc-XHz_Q8GxLyLE' # dropbox
+  h4: 'Authorization: Bearer sl.A0UauKO17btZxewm_ilBbggVtznse-lM_setdweJJ2bYRIdzhLQDh2bhVDJhN4HyjLOqEuIBvBHldbb2b1uInv6bfhWJljlvXUjAS3Pe1Zd_1tB41BgeXT0U5tihgfxAqVYr34o' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Epoka e akullnajave 4 - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Përbindëshat - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
