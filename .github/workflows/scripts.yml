@@ -5,22 +5,22 @@ on:
       - master
       
 env:
-  audio_url: "https://s3.eu-central-1.amazonaws.com/blob-eu-central-1-nwsekq/sara/fa/fa72/fa72003f-e528-47df-9476-56bf44321534.bin?response-content-disposition=attachment%3B%20filename%3D%22final.m4a%22&response-content-type=audio%2Fx-m4a&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI75SICYCOZ7DPWTA%2F20210711%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20210711T181955Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=b7dd88104198e44e73ecb17f2fa3ee9301dae93fc505b5f90371e573deec68dc"
-  movie_url: "https://dlfree.sonicbit.net/file/dl2/aWgvMUZ4WnlKVnlKcURnYkY2RUFIRkN0Zi9YbGYvNGlDNWlibXhRdmtMY2NvYlVPM3J5ZEVQSUdXSlVrV3lkZERmOGIyVGZ5dDlYTXFGUUk0OXlIR0dJSFQvMUR0aWNTS001U3Fpd29UT2Q2Z2d0VHRiODZmbEF1THUyV0dGQjliWEtKVk8vdVhiQTN2OUMvWXZxaUhYYVp1UUdPKzFHRTJ3eXEzY1IveUZYN1VLQUFyN1ltRkNNOEhMMDM2OFNwc2tJdTFSTVZUN0dvQng2VHlOc0hVdz09/download"
+  audio_url: "https://cdn.filesend.jp/private/72J2oDyJNPPIJ-r6iCXn-7Pm0x494dS__nkFHXfoOHaeRe_GH5bAjvGe7UuNbqCu/final.m4a"
+  movie_url: "https://de15.seedr.cc/ff_get/956557253/Tom.And.Jerry.The.Fast.And.The.Furry.2005.1080p.BluRay.H264.AAC-RARBG.mp4?st=AeGUh8mQOu3kP_FNgMyCzg&e=1626191333"
   movie_name: "MOVIE.mp4"
   audio_name: "AUDIO.m4a"
-  result_name: "Liza në botën e çudirave - Dubluar në Shqip - FULL HD.mp4"
+  result_name: "Tomi dhe Xherri - Gara e çmendur - Dubluar në Shqip - FULL HD.mp4"
   h1: 'Accept: application/json'
   h2: 'Authorization: Bearer IWdbjlkrpCQywHjn1VfiOy9uP3ebT67ulnRf6BWj4WdD5qfoacJTcrCk5wz5' # vidoza
   h3: 'cache-control: no-cache'
-  h4: 'Authorization: Bearer sl.A0dBbYfdm0xUlx1EV2kNK0Nrjd42hjCWOQzrfWe3p1jo1Ix57HVjTiZMuhUDEDJ9Yh2GyZbt3ALU5LcJJOxU5n-fTccbUeczIFgigY2zgXmLvB_dqreGrcUpBzHXoQcJdBcQB9k' # dropbox
+  h4: 'Authorization: Bearer sl.A0frqP0P6F7t3BRDYqdTiE2TufbjywVNn_9nTs7rMSyoHNu1U8Mrn1YAZiQGzN9Z_tShJywO1uhXued_bBhg0AQ53qKikoEE5-jTxj5QEFyedkl4gMTTgWABd0z125tgQ8Vtb5w' # dropbox
   h5: 'Content-Type: application/octet-stream'
   #h6: "Dropbox-API-Arg: {\"path\": \"/Pinoku.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}"
   h7: "Dropbox-API-Arg: {\"close\": false}"
   h8a: "Dropbox-API-Arg: {\"cursor\": {\"session_id\": \""
   h8b: "\",\"offset\": "
   h8c: "},\"close\": false}"
-  h9: "},\"commit\": {\"path\": \"/Liza në botën e çudirave - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
+  h9: "},\"commit\": {\"path\": \"/Tomi dhe Xherri - Gara e çmendur - Dubluar në Shqip - FULL HD.mp4\",\"mode\": \"add\",\"autorename\": true,\"mute\": false,\"strict_conflict\": false}}"
   
 jobs:
   start:
